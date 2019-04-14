@@ -45,12 +45,12 @@ client.on('message', message => {
 
 })
 
-client.login(config.token)
+client.login(process.env.BOT_TOKEN)
 
 client.on('ready', () => {
     console.log('BOT STARTED')
 })
 
 client.on('ready', () => {
-    client.user.setActivity("Ticket bot | 'help")
+    client.user.setActivity("Ticket bot | 'meb!help")
 })
