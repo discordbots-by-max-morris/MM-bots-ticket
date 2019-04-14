@@ -7,6 +7,10 @@
   }, 
   "main": "index.js",
   "dependencies": {
+    "for": "^0.1.0",
+    "fs": "0.0.1-security",
+    "masters": "^3.1.0",
+    "ms": "^2.1.1",
     "base": "^3.0.0",
     "bath": "^2.1.1",
     "chalk": "^2.4.2",
