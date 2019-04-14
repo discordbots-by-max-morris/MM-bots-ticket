@@ -2,7 +2,7 @@ const { Command } = require('discord.js-commando');
 const { oneLine } = require('common-tags');
 const fs = require('fs');
 const ranks = require('../../bin/ranks.json');
-// const rawJSON = require('./ranks.json');
+
 
 module.exports = class PubRanksCommand extends Command {
   constructor(client) {
