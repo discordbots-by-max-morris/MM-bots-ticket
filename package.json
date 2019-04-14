@@ -1,10 +1,12 @@
 {
   "name": "bot-1",
   "version": "0.0.0",
-  "description": "Bot 1",
+  "engines": {
+    "node": "0.12.7"
+  }, 
   "main": "app.js",
   "author": {
-    "name": "Erik Nilsen"
+    "name": "Max Morris"
   },
   "dependencies": {
     "discord.js": "github:discordjs/discord.js#11.3-dev",
