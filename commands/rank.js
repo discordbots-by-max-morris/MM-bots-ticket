@@ -1,6 +1,6 @@
 const { Command } = require('discord.js-commando');
 const { oneLine } = require('common-tags');
-const ranks = require('../../bin/ranks.json');
+const ranks = require('../bin/ranks.json');
 
 module.exports = class RankCommand extends Command {
   constructor(client) {
