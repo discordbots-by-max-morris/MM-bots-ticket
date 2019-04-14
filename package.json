@@ -1,10 +1,6 @@
 {
   "name": "max-s-normale-bot-new-master",
   "version": "1.0.0",
-  "engines": {
-    "node": "0.12.7",
-    "npm": "6.9.0"
-  }, 
   "main": "index.js",
   "dependencies": {
     "for": "^0.1.0",
